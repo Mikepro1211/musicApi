@@ -3,10 +3,12 @@ import './Home.css'
 
 const Home = ()=>{
     return(
+        
        <div className='home'>
+    
        <Header/>
        <div className='text'>
-       <h1>Feel the music</h1>
+       <p id='titulo'>Feel the music</p>
        </div>
        </div>
     )

@@ -1,0 +1,9 @@
+#musica{
+    width:  50%;
+    height: auto;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.72); 
+    padding: 10px 20px;
+    margin-top: 4%;
+    border-radius: 10px;
+}
