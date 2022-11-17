@@ -22,19 +22,19 @@ const Header = () =>{
                 <ul className= {active ?'ul-item':'ul-item oicon'}>
                     <li>{/*icon */} 
                     <IoIosApps style={{color:'black'}}></IoIosApps>
-                    <Link to='/'>Home</Link>
+                    <Link to='/'>HOME</Link>
                     </li>
                     <li>{/*icon */} 
                     <IoIosApps style={{color:'black'}}></IoIosApps>
-                    <Link to='/pages/Formulario.js'>Formulario</Link>
+                    <Link to='/pages/Formulario.js'>AGREGAR</Link>
                     </li>
                     <li>{/*icon */} 
                     <IoIosApps style={{color:'black'}}></IoIosApps>
-                    <Link to='/pages/api.js'>Api</Link>
+                    <Link to='/pages/api.js'>lISTA</Link>
                     </li>
                     <li>{/*icon */} 
                     <IoIosApps style={{color:'black'}}></IoIosApps>
-                    <Link to='/pages/Collections.js'>Collections</Link>
+                    <Link to='/pages/Collections.js'>ELIMINAR</Link>
                     </li>
                 </ul>
             </nav>

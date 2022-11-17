@@ -1,9 +1,35 @@
 #musica{
-    width:  50%;
+    width:  80%;
     height: auto;
     margin: auto;
-    background: rgba(255, 255, 255, 0.72); 
+    background: black ;
     padding: 10px 20px;
     margin-top: 4%;
     border-radius: 10px;
+}
+.parrafo{
+    width: 100px;
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+}
+#texto{
+ 
+ width: 200px;
+}
+#imagen2{
+    margin-top: -40px ;
+    width:60%; 
+    height:60%;
+    margin-left: 60%;
+}
+#boton2{
+    background: black;
+    color:#fff;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 35%;
+    border-radius: 15px;
+    width: 35%;
+    
 }

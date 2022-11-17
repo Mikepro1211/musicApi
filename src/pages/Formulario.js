@@ -33,7 +33,7 @@ const Formulario = ()=>{
             
             
             <div>
-              <label>Año</label>
+              <label>Año</label><br></br>
               <input type="text"  id ="id"onChange={(e) => SetAño(e.target.value)}/>
             </div>
             
@@ -45,7 +45,7 @@ const Formulario = ()=>{
             </form>
            {/*-------------------------------------BOTON---------------------------------------------------------*/ } 
            
-            <button style={{margin:40}} onClick={()=>{
+           <center><button id='boton3' style={{margin:20}} onClick={()=>{
 
 fetch(url,{
   method: 'POST',
@@ -61,7 +61,7 @@ fetch(url,{
 }  )
 }).then((res)=>res.json()).then((resJson)=>alert(resJson.message));
 
-}}>Añadir album</button>
+}}>Añadir album</button></center> 
 
           
           </div>

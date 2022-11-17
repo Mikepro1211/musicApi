@@ -20,18 +20,22 @@ export default function List(){
                 data.map((album)=>(
               
             <div id="musica">
-            <p style={{fontSize:30, }}>album</p>
-            
-            <p style={{fontSize:30, }}>{album.name}</p>
-            <p style={{fontSize:30, }}>{album.album}</p>
-            <p style={{fontSize:30, }}>{album.year}</p>
-             <img src={album.imagen} style={{width:300, height:200,}}/>
+
+             <div id="texto">   
+            <p class = "parrafo" style={{fontSize:10, }}>Album</p>
+            <p class = "parrafo"style={{fontSize:30, }}>{album.name}</p>
+            <p class = "parrafo"style={{fontSize:20, }}>{album.album}</p>
+            <p class = "parrafo"style={{fontSize:20, }}>{album.year}</p>
+            </div>
+            <div id="imagen2">
+             <img  src={album.imagen}/>
+            </div>
             </div>
              ))
             
             }
 
-            <button style={{margin:40}} onClick={()=>{
+            <button id="boton2" onClick={()=>{
             
             
             fetch(url,{
